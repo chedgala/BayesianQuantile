@@ -1,0 +1,36 @@
+################################################################################
+## Simulated data
+############################################################################
+
+library(lqr)
+n<-200
+p<-0.75
+sigmas<-1.3
+#nu=3
+beta<-c(-1,2,3)
+
+
+
+modelN = lqr(y~x1-1,dist = "normal", p=p,precision = 0.000000001)
+
+library(rstan, quietly = T)
+library(shinystan)
+#library(rstanmulticore)
+
+initf1 <- function() {list(beta=modelN$beta, sigma=modelN$sigma)}
+#initf1 <- function() {list(beta=modelN$beta, sigma=modelN$sigma, u=rep(0.8,n))}
+
+fit_stan <- stan(file='SKN.stan', init=initf1,
+                 data = list(y=c(y),w=c(y), x_p=x_p,x=x1,n=n,p=p),
+                 thin = 1000, chains = 1, iter = 20000, warmup = 1000,
+                 seed = 9955)
+
+qoi <- c("beta","sigma")
+#qoi <- c("beta","sigma","nu")
+#pairs(fit_stan, pars=qoi)
+plot(fit_stan,pars = qoi)
+print(fit_stan, pars=qoi)
+
+#modelN = lqr(y~x1-1,dist = "normal", p=p, precision = 0.000000001)
+#modelN = lqr(y~x1-1,dist = "slash", p=p, precisio=0.000000001)
+##################################################

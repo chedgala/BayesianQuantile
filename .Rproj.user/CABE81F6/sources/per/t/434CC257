@@ -1,0 +1,26 @@
+{
+    "id": "434CC257",
+    "path": "C:/Users/chedgala/OneDrive - Escuela Superior Politécnica del Litoral/Academic/Projects/Bayesian/censChol-Laplace.stan",
+    "project_path": "censChol-Laplace.stan",
+    "type": "stan",
+    "hash": "2568667507",
+    "contents": "",
+    "dirty": false,
+    "created": 1679947790112.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "12,20",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1679947063,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1679947063,
+    "read_only": false,
+    "read_only_alternatives": []
+}

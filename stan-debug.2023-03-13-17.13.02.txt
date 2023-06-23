@@ -1,0 +1,8 @@
+starting worker pid=25260 on localhost:11135 at 17:13:03.157
+starting worker pid=9540 on localhost:11135 at 17:13:03.365
+Error in unserialize(node$con) : formato de entrada desconocido
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Ejecución interrumpida
+Error in unserialize(node$con) : error al leer desde conexión
+Calls: <Anonymous> ... doTryCatch -> recvData -> recvData.SOCKnode -> unserialize
+Ejecución interrumpida

@@ -1,0 +1,193 @@
+starting worker pid=2664 on localhost:11813 at 10:16:28.777
+starting worker pid=7128 on localhost:11813 at 10:16:29.053
+starting worker pid=5976 on localhost:11813 at 10:16:29.313
+starting worker pid=24388 on localhost:11813 at 10:16:29.618
+Loading required package: rstan
+Loading required package: StanHeaders
+
+rstan version 2.26.16 (Stan version 2.26.1)
+
+For execution on a local, multicore CPU with excess RAM we recommend calling
+options(mc.cores = parallel::detectCores()).
+To avoid recompilation of unchanged Stan programs, we recommend calling
+rstan_options(auto_write = TRUE)
+For within-chain threading using `reduce_sum()` or `map_rect()` Stan functions,
+change `threads_per_chain` option:
+rstan_options(threads_per_chain = 1)
+
+Do not specify '-march=native' in 'LOCAL_CPPFLAGS' or a Makevars file
+Loading required package: rstan
+Loading required package: StanHeaders
+
+rstan version 2.26.16 (Stan version 2.26.1)
+
+For execution on a local, multicore CPU with excess RAM we recommend calling
+options(mc.cores = parallel::detectCores()).
+To avoid recompilation of unchanged Stan programs, we recommend calling
+rstan_options(auto_write = TRUE)
+For within-chain threading using `reduce_sum()` or `map_rect()` Stan functions,
+change `threads_per_chain` option:
+rstan_options(threads_per_chain = 1)
+
+Do not specify '-march=native' in 'LOCAL_CPPFLAGS' or a Makevars file
+Loading required package: rstan
+Loading required package: StanHeaders
+
+rstan version 2.26.16 (Stan version 2.26.1)
+
+For execution on a local, multicore CPU with excess RAM we recommend calling
+options(mc.cores = parallel::detectCores()).
+To avoid recompilation of unchanged Stan programs, we recommend calling
+rstan_options(auto_write = TRUE)
+For within-chain threading using `reduce_sum()` or `map_rect()` Stan functions,
+change `threads_per_chain` option:
+rstan_options(threads_per_chain = 1)
+
+Do not specify '-march=native' in 'LOCAL_CPPFLAGS' or a Makevars file
+Loading required package: rstan
+Loading required package: StanHeaders
+
+rstan version 2.26.16 (Stan version 2.26.1)
+
+For execution on a local, multicore CPU with excess RAM we recommend calling
+options(mc.cores = parallel::detectCores()).
+To avoid recompilation of unchanged Stan programs, we recommend calling
+rstan_options(auto_write = TRUE)
+For within-chain threading using `reduce_sum()` or `map_rect()` Stan functions,
+change `threads_per_chain` option:
+rstan_options(threads_per_chain = 1)
+
+Do not specify '-march=native' in 'LOCAL_CPPFLAGS' or a Makevars file
+
+CHECKING DATA AND PREPROCESSING FOR MODEL 'anon_model' NOW.
+
+COMPILING MODEL 'anon_model' NOW.
+
+STARTING SAMPLER FOR MODEL 'anon_model' NOW.
+
+CHECKING DATA AND PREPROCESSING FOR MODEL 'anon_model' NOW.
+
+COMPILING MODEL 'anon_model' NOW.
+
+STARTING SAMPLER FOR MODEL 'anon_model' NOW.
+
+CHECKING DATA AND PREPROCESSING FOR MODEL 'anon_model' NOW.
+
+COMPILING MODEL 'anon_model' NOW.
+
+STARTING SAMPLER FOR MODEL 'anon_model' NOW.
+
+CHECKING DATA AND PREPROCESSING FOR MODEL 'anon_model' NOW.
+
+COMPILING MODEL 'anon_model' NOW.
+
+STARTING SAMPLER FOR MODEL 'anon_model' NOW.
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 1).
+Chain 1: Rejecting initial value:
+Chain 1:   Gradient evaluated at the initial value is not finite.
+Chain 1:   Stan can't start sampling from this initial value.
+Chain 1: 
+Chain 1: Gradient evaluation took 0.000559 seconds
+Chain 1: 1000 transitions using 10 leapfrog steps per transition would take 5.59 seconds.
+Chain 1: Adjust your expectations accordingly!
+Chain 1: 
+Chain 1: 
+Chain 1: Iteration:    1 / 10000 [  0%]  (Warmup)
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 2).
+Chain 2: 
+Chain 2: Gradient evaluation took 0.000807 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 8.07 seconds.
+Chain 2: Adjust your expectations accordingly!
+Chain 2: 
+Chain 2: 
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 3).
+Chain 2: Iteration:    1 / 10000 [  0%]  (Warmup)
+Chain 3: Rejecting initial value:
+Chain 3:   Gradient evaluated at the initial value is not finite.
+Chain 3:   Stan can't start sampling from this initial value.
+Chain 3: 
+Chain 3: Gradient evaluation took 0.000539 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 5.39 seconds.
+Chain 3: Adjust your expectations accordingly!
+Chain 3: 
+Chain 3: 
+Chain 3: Iteration:    1 / 10000 [  0%]  (Warmup)
+
+SAMPLING FOR MODEL 'anon_model' NOW (CHAIN 4).
+Chain 4: Rejecting initial value:
+Chain 4:   Gradient evaluated at the initial value is not finite.
+Chain 4:   Stan can't start sampling from this initial value.
+Chain 4: 
+Chain 4: Gradient evaluation took 0.000339 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 3.39 seconds.
+Chain 4: Adjust your expectations accordingly!
+Chain 4: 
+Chain 4: 
+Chain 4: Iteration:    1 / 10000 [  0%]  (Warmup)
+Chain 2: Iteration: 1000 / 10000 [ 10%]  (Warmup)
+Chain 2: Iteration: 1001 / 10000 [ 10%]  (Sampling)
+Chain 2: Iteration: 2000 / 10000 [ 20%]  (Sampling)
+Chain 2: Iteration: 3000 / 10000 [ 30%]  (Sampling)
+Chain 2: Iteration: 4000 / 10000 [ 40%]  (Sampling)
+Chain 2: Iteration: 5000 / 10000 [ 50%]  (Sampling)
+Chain 2: Iteration: 6000 / 10000 [ 60%]  (Sampling)
+Chain 4: Iteration: 1000 / 10000 [ 10%]  (Warmup)
+Chain 4: Iteration: 1001 / 10000 [ 10%]  (Sampling)
+Chain 2: Iteration: 7000 / 10000 [ 70%]  (Sampling)
+Chain 1: Iteration: 1000 / 10000 [ 10%]  (Warmup)
+Chain 1: Iteration: 1001 / 10000 [ 10%]  (Sampling)
+Chain 4: Iteration: 2000 / 10000 [ 20%]  (Sampling)
+Chain 3: Iteration: 1000 / 10000 [ 10%]  (Warmup)
+Chain 3: Iteration: 1001 / 10000 [ 10%]  (Sampling)
+Chain 2: Iteration: 8000 / 10000 [ 80%]  (Sampling)
+Chain 2: Iteration: 9000 / 10000 [ 90%]  (Sampling)
+Chain 4: Iteration: 3000 / 10000 [ 30%]  (Sampling)
+Chain 2: Iteration: 10000 / 10000 [100%]  (Sampling)
+Chain 2: 
+Chain 2:  Elapsed Time: 12.563 seconds (Warm-up)
+Chain 2:                320.946 seconds (Sampling)
+Chain 2:                333.509 seconds (Total)
+Chain 2: 
+Chain 1: Iteration: 2000 / 10000 [ 20%]  (Sampling)
+Chain 4: Iteration: 4000 / 10000 [ 40%]  (Sampling)
+Chain 4: Iteration: 5000 / 10000 [ 50%]  (Sampling)
+Chain 1: Iteration: 3000 / 10000 [ 30%]  (Sampling)
+Chain 4: Iteration: 6000 / 10000 [ 60%]  (Sampling)
+Chain 4: Iteration: 7000 / 10000 [ 70%]  (Sampling)
+Chain 1: Iteration: 4000 / 10000 [ 40%]  (Sampling)
+Chain 4: Iteration: 8000 / 10000 [ 80%]  (Sampling)
+Chain 4: Iteration: 9000 / 10000 [ 90%]  (Sampling)
+Chain 3: Iteration: 2000 / 10000 [ 20%]  (Sampling)
+Chain 1: Iteration: 5000 / 10000 [ 50%]  (Sampling)
+Chain 4: Iteration: 10000 / 10000 [100%]  (Sampling)
+Chain 4: 
+Chain 4:  Elapsed Time: 123.784 seconds (Warm-up)
+Chain 4:                706.007 seconds (Sampling)
+Chain 4:                829.791 seconds (Total)
+Chain 4: 
+Chain 1: Iteration: 6000 / 10000 [ 60%]  (Sampling)
+Chain 1: Iteration: 7000 / 10000 [ 70%]  (Sampling)
+Chain 1: Iteration: 8000 / 10000 [ 80%]  (Sampling)
+Chain 3: Iteration: 3000 / 10000 [ 30%]  (Sampling)
+Chain 1: Iteration: 9000 / 10000 [ 90%]  (Sampling)
+Chain 1: Iteration: 10000 / 10000 [100%]  (Sampling)
+Chain 1: 
+Chain 1:  Elapsed Time: 187.534 seconds (Warm-up)
+Chain 1:                1211.16 seconds (Sampling)
+Chain 1:                1398.69 seconds (Total)
+Chain 1: 
+Chain 3: Iteration: 4000 / 10000 [ 40%]  (Sampling)
+Chain 3: Iteration: 5000 / 10000 [ 50%]  (Sampling)
+Chain 3: Iteration: 6000 / 10000 [ 60%]  (Sampling)
+Chain 3: Iteration: 7000 / 10000 [ 70%]  (Sampling)
+Chain 3: Iteration: 8000 / 10000 [ 80%]  (Sampling)
+Chain 3: Iteration: 9000 / 10000 [ 90%]  (Sampling)
+Chain 3: Iteration: 10000 / 10000 [100%]  (Sampling)
+Chain 3: 
+Chain 3:  Elapsed Time: 230.124 seconds (Warm-up)
+Chain 3:                3275.81 seconds (Sampling)
+Chain 3:                3505.93 seconds (Total)
+Chain 3: 
