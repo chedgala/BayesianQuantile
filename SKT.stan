@@ -28,7 +28,7 @@ model{
   sigma ~ cauchy(0, 4);
     nu ~ student_t(4,0,5);  // Student and Slash
     for (i in 1:n){
-   u[i] ~ gamma(nu,nu);    //Student
+   u[i] ~ gamma(nu/2,nu/2);    //Student
     // u[i] ~ beta(nu,1);  //Slash
     //   u[i] ~ inv_gamma(1, 0.5);  //laplace
        if (w[i]<=mu[i]){
