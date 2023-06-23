@@ -93,7 +93,7 @@ for(i in seq_along(nvec)){
   }  
 }
 
-save(out,file = "simSKN.RData")
+#save(out,file = "simSKN.RData")
 
 
 outdf <- as.data.frame(out)

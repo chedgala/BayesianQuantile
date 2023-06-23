@@ -61,7 +61,7 @@ for(i in seq_along(nvec)){
   }  
 }
 
-save(out,file = "simSKT.RData")
+#save(out,file = "simSKT.RData")
 
 outdf <- as.data.frame(out)
 
@@ -138,6 +138,7 @@ outdf_long_averages <- outdf_long  %>%
 
 
 medias <- outdf_long_averages[1:(nrow(outdf_long_averages)/2),]
+View(medias)
 
 outdf_long_averages[-(1:(nrow(outdf_long_averages)/2)),"estimated"]^2
 medias$par <- rep(c(beta,sigmas,nu),each=length(pvec)*length(nvec))
