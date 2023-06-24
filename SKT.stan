@@ -35,11 +35,13 @@ model{
         sigmai[i] = inv_sqrt(u[i])*sigma/(2*(1-p));  // slash, Student, Laplace
        //sigmai[i] = sigma/(2*(1-p));              // normal
         target += bernoulli_lpmf(1 | p)+normal_lpdf(y[i] | mu[i], sigmai[i]);
+        //target += log(p) + normal_lpdf(y[i] | mu[i], sigmai[i]);
            }
        else {
          sigmai[i] =  inv_sqrt(u[i])*sigma/(2*p); //slash, Student,Laplace
         //sigmai[i] =  sigma/(2*p);  //  normal
          target += bernoulli_lpmf(0 | p)+normal_lpdf(y[i] | mu[i], sigmai[i]); 
+         //target += log(1-p) + normal_lpdf(y[i] | mu[i], sigmai[i]); 
              }                     
   }               
 }

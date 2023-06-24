@@ -6,7 +6,7 @@ library(lqr)
 #n<-200
 n<-50
 
-p<-0.75
+p<-0.90
 sigmas<-1.3
 nu=3
 beta<-c(-1,2,3)
@@ -59,11 +59,14 @@ qoi <- c("beta","sigma","nu")
 plot(fit_stan,pars = qoi)
 print(fit_stan, pars=qoi)
 
-lqr(y~x1-1,dist = "t", p=p, precision = 0.000000001)
+# lqr(y~x1-1,dist = "t", p=p, precision = 0.000000001)
 
 #modelN = lqr(y~x1-1,dist = "slash", p=p, precisio=0.000000001)
 ##################################################
 
-length(rstan::extract(fit_stan)$beta[,1])
-
-plot.ts(rstan::extract(fit_stan)$beta[,1])
+# length(rstan::extract(fit_stan)$beta[,1])
+# length(rstan::extract(fit_stan)$sigma)
+# 
+# plot.ts(rstan::extract(fit_stan)$beta[,1])
+# plot.ts(c(rstan::extract(fit_stan)$sigma))
+# plot.ts(c(rstan::extract(fit_stan)$nu))
