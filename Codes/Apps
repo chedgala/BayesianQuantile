@@ -2,3 +2,5 @@
 2- From 2021 swet-t work, app 2
 
 Envelopes from STAT 2018?
+
+Instead of plotting single residuals against the envelopes, you might plot quantiles or credible intervals of your residual distributions against the envelopes. For example, you could plot the median residual for each observation, along with a 95% credible interval around that median residual, and then see if these intervals cross your pre-defined envelopes.
